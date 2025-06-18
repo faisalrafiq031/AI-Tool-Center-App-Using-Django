@@ -62,7 +62,7 @@ db.sqlite3
 db.sqlite3-journal
 
 # Collected static files
-staticfiles/
+# staticfiles/
 
 
 # Flask stuff:
