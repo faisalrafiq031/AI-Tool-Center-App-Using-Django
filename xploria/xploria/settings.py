@@ -84,15 +84,18 @@ USE_TZ = True
 # Static files (CSS, JS, images)
 STATIC_URL = '/static/'
 
-# Tell Django where to collect static files
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
-
 # Add this only if not already set
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'dashboard/static'),
 ]
 
+# Tell Django where to collect static files
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+
+
+
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+
 MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR / 'media'
 
