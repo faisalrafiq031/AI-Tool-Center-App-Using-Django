@@ -12,6 +12,7 @@ ALLOWED_HOSTS = ["*"]  # In production, specify domain or use ['.railway.app']
 
 
 INSTALLED_APPS = [
+    'whitenoise.runserver_nostatic',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
