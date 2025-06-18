@@ -1,0 +1,6 @@
+Django
+pandas
+altair
+numpy
+gunicorn
+whitenoise
